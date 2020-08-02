@@ -1,0 +1,19 @@
+.update{
+    float :right;
+    margin: 30px;
+}
+p{
+    color:red;
+    text-align: center;
+    padding:30px;
+}
+.name{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 300%;
+    padding:10px 0px 0px 0px;
+  }
+  .sd{
+    margin:35px; 
+    border:1px solid black;
+  }

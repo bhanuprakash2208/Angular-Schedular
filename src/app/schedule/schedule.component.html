@@ -1,0 +1,23 @@
+<div *ngIf="display" class= "update" (click)="onLogout()">
+  <button type="button" class="btn btn-danger">Logout</button>
+</div>
+<div class="name"> Agile Meeting</div>
+<div class="sd">
+<ejs-schedule  [currentView]="setView"  [selectedDate] = "setDate"  [eventSettings]= "eventSettings"  [allowResizing] = "true" [allowDragAndDrop] = "true" (dragStart) = "onDragStart($event)" (resizeStart) = "onResizeStart($event)">
+    <e-views>
+      <e-view option='Day' displayName='Day' startHour='07:00' endHour='22:00'></e-view>
+      <e-view option='Week' isSelected='true' interval='1' startHour='07:00' endHour='22:00'></e-view>
+      <e-view option='WorkWeek' interval='1' startHour='07:00' endHour='22:00'></e-view>
+      <e-view option='Agenda' showWeekNumber='true'></e-view>
+      <e-view option='MonthAgenda'></e-view>
+    </e-views>  
+</ejs-schedule>
+</div>
+<div>
+<div class = "update" (click)="Update()">
+  <button type="button" class="btn btn-primary">update</button>
+  </div>
+  <div *ngIf="updateValue" >
+  <p>**Meeting as been updated successfully**</p>
+  </div>
+</div>

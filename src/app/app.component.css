@@ -1,0 +1,17 @@
+#header-nav {
+    background-color: #2030bd;
+    border-radius: 0;
+    border: 0;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #f10606;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #f3f7f3;
+    line-height: 1;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
+ 
